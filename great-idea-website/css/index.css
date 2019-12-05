@@ -61,33 +61,34 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* { 
-	border: 2px rgb(121, 121, 245) dotted;
-}
+* 
 
 .topbar { 
 	display: inline-block; 
 	word-spacing: 130px;
+	color: grey;
+	margin-left: 20px; 
+}
+
+.topbar:hover {
+	color: sandybrown;
 }
 
 
 .pic1 {
-	margin-left: 915px;
-	border: 1px solid yellow;
 	position: relative;
-	bottom: 150px;
+	bottom: 216px;
+	left: 875px;
 }
 
 
 .logo {
 	margin-left: 1100px;
 	display: inline-block;
-	border: 1px solid red;
 	box-sizing: border-box;
 	position: relative;
 	left: 23px;
-	bottom:26px;
-	background-color:blue;
+	bottom:20px;
 	}
 
 h1 {
@@ -105,12 +106,68 @@ h1 {
 }
 
 .start {
-	background-color: pink;
 	padding-right: 0;
 	display: block;
-	position: relative;
-	top: 300px; 
+	position: relative; 
 	box-sizing: border-box;
 	text-align: center;
-	
+	border: 2px solid grey;
+	width: 100px;
+	length: 100px;
+	margin-left: 395px;
+	top: 100px;
+}
+
+.start:hover{
+	color: sandybrown;
+	background-color: black;
+}
+
+.featabout {
+	display: block;
+	background-color: sandybrown;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 60px;
+}
+
+.outer {
+	display: inline-block;
+	width: 45%;
+}
+
+.inner {
+	display: inline-block;
+	width: 45%;
+	margin-left: 3%;
+}
+
+.middle-img {
+	margin: 0 auto;
+	position: relative;
+	bottom: 60px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+
+.service {
+	display: inline-block;
+	width: 33%;
+}
+
+.product {
+	display: inline-block;
+	width: 33%;
+}
+
+.vision {
+	display: inline-block;
+	width: 33%; 
+}
+
+.lowerpage{
+	position: relative;
+	bottom: 60px;
+	background-color:greenyellow;
 }

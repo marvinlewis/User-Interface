@@ -16,9 +16,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -26,7 +23,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+
 }
 body {
 	line-height: 1;
@@ -56,7 +53,6 @@ html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
@@ -64,3 +60,57 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* { 
+	border: 2px rgb(121, 121, 245) dotted;
+}
+
+.topbar { 
+	display: inline-block; 
+	word-spacing: 130px;
+}
+
+
+.pic1 {
+	margin-left: 915px;
+	border: 1px solid yellow;
+	position: relative;
+	bottom: 150px;
+}
+
+
+.logo {
+	margin-left: 1100px;
+	display: inline-block;
+	border: 1px solid red;
+	box-sizing: border-box;
+	position: relative;
+	left: 23px;
+	bottom:26px;
+	background-color:blue;
+	}
+
+h1 {
+	padding-right:1%;
+	display: block;
+	text-align: center; 
+	margin: 0;
+	font-size: 80px;
+	box-sizing: border-box;
+	position: relative; 
+	top: 100px; 
+	left: 200px;
+	width: 500px;
+	length: 500px;
+}
+
+.start {
+	background-color: pink;
+	padding-right: 0;
+	display: block;
+	position: relative;
+	top: 300px; 
+	box-sizing: border-box;
+	text-align: center;
+	
+}
